@@ -9,11 +9,13 @@ class HelloWorld {
         
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("Informe seus dados:  ");
-        
+        System.out.println("Informe seu nome:  ");
         nome = scanner.nextLine();
-        idade = scanner.nextInt();
-        peso = scanner.nextDouble();
+        System.out.println("Informe seu idade:  ");
+         idade = scanner.nextInt();
+        System.out.println("Informe seu peso:  ");
+         peso = scanner.nextDouble();
+  
         
         scanner.close();
         
